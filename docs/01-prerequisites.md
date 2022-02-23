@@ -1,24 +1,17 @@
 # Prerequisites
 
-## Google Cloud Platform
+## Amazon Web Services
 
-This tutorial leverages the [Google Cloud Platform](https://cloud.google.com/) to streamline provisioning of the compute infrastructure required to bootstrap a Kubernetes cluster from the ground up. [Sign up](https://cloud.google.com/free/) for $300 in free credits.
+The commands below deploy Kubernetes cluster into [Amazon Web
+Services](https://aws.amazon.com).
 
-[Estimated cost](https://cloud.google.com/products/calculator#id=873932bc-0840-4176-b0fa-a8cfd4ca61ae) to run this tutorial: $0.23 per hour ($5.50 per day).
+## Amazon Web Services CLI
 
-> The compute resources required for this tutorial exceed the Google Cloud Platform free tier.
+Install AWS CLI following instructions at https://aws.amazon.com/cli/.
 
-## Google Cloud Platform SDK
+Details how to configure AWS CLI are available
+[here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html).
 
-### Install the Google Cloud SDK
-
-Follow the Google Cloud SDK [documentation](https://cloud.google.com/sdk/) to install and configure the `gcloud` command line utility.
-
-Verify the Google Cloud SDK version is 338.0.0 or higher:
-
-```
-gcloud version
-```
 
 ## Running Commands in Parallel with tmux
 
