@@ -14,7 +14,7 @@ Based on [AWS open5gs K8S High Availability](https://awstip.com/aws-open5gs-k8s-
 source : kubernetes.io
 
 ## Topology GCP
-![kubernetes.gcp-screenshot](docs/images/gcp_k8s_ha.png)
+![kubernetes.aws-screenshot](docs/images/aws_ec2_k8s-ha.png)
 
 
 ## Labs
